@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Donate Now</title>
+	<link rel="stylesheet" href="donatec.css">
+</head>
+
+	<header>
+	<img src="final logo.JPG" height="110px" width="252px" align="center"/>
+		<nav align="center">
+			<ul>
+				<li><a href="home.html">Home</a></li>
+				<li><a href="Official Website.html">About</a></li>
+				<li><a href="donate.html">Donate</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+<body>
+	<header>
+		<h1>Donate Now</h1>
+	</header>
+	<main>
+		<form action="donate.php" method="post">
+			<fieldset>
+				<legend>Your Information</legend>
+				<label for="name">Name:</label>
+				<input type="text" name="name" required>
+				<br>
+				<label for="email">Email:</label>
+				<input type="email" name="email" required>
+			</fieldset>
+			<fieldset>
+				<legend>Donation Information</legend>
+				<label for="amount">Donation Amount:</label>
+				<input type="text" name="Donation Amount" required>
+				
+					
+				</select>
+				<br>
+				<label for="card">Credit Card Number:</label>
+				<input type="text" name="card" required>
+				<br>
+				<label for="exp">Expiration Date:</label>
+				<input type="text" name="exp" required>
+				<br>
+				<label for="cvv">CVV:</label>
+				<input type="text" name="cvv" required>
+			</fieldset>
+			
+			<input type="submit" value="Donate">
+		</form>
+	</main>
+	
+	<script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+	<footer>
+	<div>
+		<p style="color:white;">&copy; 2023 Enough is Enough organization</p>
+		<a href="https://www.facebook.com/profile.php?id=100092459117044">
+		<img src="facebook.JPEG" alt="Facebook icon" height="20px">
+		</a>
+	</div>
+	<div>
+		<a href="https://instagram.com/katlegor.mlangeni?igshid=ZDdkNTZiNTM=">
+		<img src="instagram.JPEG" alt="Instagram icon" height="20px">
+		</a>
+	</div>
+		<p style="color:white">
+		<address style="color:white;">
+			23 Scalan St<br>
+			
+			Kimberley, Northern Cape<br>
+			
+			Phone: 065-583-3209<br>
+		</address>
+	</div>
+</footer>
+<p align="left">
+	<script>
+function goBack() {
+  window.history.back()
+}	
+</body>
+</html>

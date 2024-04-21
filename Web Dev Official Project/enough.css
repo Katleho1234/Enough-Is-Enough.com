@@ -1,0 +1,46 @@
+body {
+	background-image: url('eie.JPG');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+h1{
+ text-align: center;
+ color: white;
+ background-color: rgb(96, 119, 180);
+ font-family: sans-serif;
+ 
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+	display: inline;
+}
+li{
+	float: left;
+}
+a{
+	display: block;
+	padding: 8px;
+	background-color: #dddddd;
+}
+li{
+	border-right: 1px solid #bbb;
+}
+ul{
+	border: 1px solid #e7e7e7;
+	background-color:rgb(96, 119, 180);
+}
+ul{
+	position: fixed;
+	top:0;
+	width: 100%;
+}
+footer{
+	text-align: center;
+}
